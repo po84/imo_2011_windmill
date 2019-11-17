@@ -63,7 +63,8 @@ const Engine = (function(global) {
 	    i += 1;
 	}
     };
-    
+
+    canvas.innerText = 'Oops! Looks like your browser is not supported :(';
     canvas.width = canvasWidth;
     canvas.height = canvasHeight;
     canvas.addEventListener('click', canvasClickEventListener);
