@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<title>IMO 2011 - Windmill</title>
+	<style>
+	 .main-container {
+	     max-width: 600px;
+	     margin-left: auto;
+	     margin-right: auto;
+	 }
+	 .flex-container {
+	     display: flex;
+	     max-width: 600px;
+	     font-size: xx-large;
+	 }
+	 .flex-item-50 {
+	     width: 50%;
+	 }
+	 .align-right {
+	     text-align: right;
+	 }
+	 button {
+	     margin-top: 16px;
+	     margin-left: 16px;
+	     background: #616161;
+	     color: rgba(255,255,255,.87);
+	     padding: 8px 16px;
+	     border: 0;
+	     box-shadow: none;
+	     border-radius: 4px;
+	     font-size: x-large;
+	     min-width: 90px;
+	 }
+	 .stopped {
+	     background: #4CAF50;
+	     color: rgba(0, 0, 0, 0.87);
+	 }
+	 .started {
+	     background: #D32F2F;
+	     color: rgba(255,255,255,.87);
+	 }
+	</style>
+    </head>
+    <body>
+	<div class="main-container">
+	    <div class="flex-container">
+		<div class="flex-item-50">BLUE: <span id="blueCounter"></span></div>
+		<div class="flex-item-50 align-right">BROWN: <span id="brownCounter"></span></div>
+	    </div>
+	    <div id="canvasContainer"></div>
+	    <div>Note: click on a point to set it as the new pivot for the line.</div>
+	    <div id="controlsContainer">
+		<button class="stopped" id="spinToggleButton" type="button">Start</button>
+		<button id="resetButton" type="button">Reset</button>
+	    </div>
+	</div>
+	<script type="module" src="src/app.js"></script>
+    </body>
+</html>
