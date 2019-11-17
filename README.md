@@ -6,5 +6,6 @@ Inspired by this [video](https://youtu.be/M64HUIJFTZM) from YouTuber [3Blue1Brow
 
 The original problem set is available for download [here](https://www.imo-official.org/year_info.aspx?year=2011)
 
+Tested on Firefox 70 and Chrome 68.
 
 More features coming!
