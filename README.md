@@ -8,4 +8,14 @@ The original problem set is available for download [here](https://www.imo-offici
 
 Tested on Firefox 70 and Chrome 68.
 
-More features coming!
+Planned Improvement:
+
+- [ ] Customizable dot placement
+- [ ] Customizable line placement beyond selectable pivot point
+- [ ] More informative UI like dot position and line orientation
+- [ ] Better browser compatability check
+- [ ] Old browser support
+- [ ] Make it more colorblind friendly
+- [ ] I18n
+- [ ] Styling
+- [ ] GIF generation
