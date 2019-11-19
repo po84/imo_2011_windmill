@@ -13,6 +13,7 @@ Planned Improvement:
 - [ ] Customizable dot placement
 - [ ] Customizable line placement beyond selectable pivot point
 - [ ] More informative UI like dot position and line orientation
+- [ ] Make teh graph area responsive
 - [ ] Better browser compatability check
 - [ ] Old browser support
 - [ ] A11y
