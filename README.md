@@ -15,7 +15,7 @@ Planned Improvement:
 - [ ] More informative UI like dot position and line orientation
 - [ ] Better browser compatability check
 - [ ] Old browser support
-- [ ] Make it more colorblind friendly
+- [ ] A11y
 - [ ] I18n
 - [ ] Styling
 - [ ] GIF generation
